@@ -1,0 +1,47 @@
+.events-container {
+  background-color: #111;
+  color: white;
+  padding: 4rem 2rem;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.events-title {
+  font-size: 3rem;
+  color: gold;
+  margin-bottom: 2.5rem;
+  text-transform: uppercase;
+}
+
+.events-list {
+  display: grid;
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.event-card {
+  background-color: #1a1a1a;
+  padding: 2rem;
+  border: 1px solid gold;
+  border-radius: 12px;
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.event-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 10px gold;
+}
+
+.event-card h2 {
+  color: gold;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.event-date {
+  color: #ccc;
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
